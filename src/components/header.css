@@ -1,0 +1,22 @@
+.Header-logo{
+    width: 35px;
+    color: white;
+    height: 35px;
+    fill: white;
+}
+
+.Header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color:#F55A5A ;
+    border: 2px solid #F55A5A;
+}
+
+h1{
+    padding-left: 10px;
+    font-weight: normal;
+    padding-bottom: 4px;
+
+}
