@@ -11,7 +11,7 @@ function Content(){
                 <div className='contents'>
                     <img src={Location} className='Location' />
                     <span>JAPAN</span>
-                    <a href="">View on Google Maps</a>
+                    <a href="https://maps.app.goo.gl/86u4FRerVptNcVTJ9">View on Google Maps</a>
                     <h2>Mount Fuji</h2>
                     <h5>12 Jan, 2023 - 24 Jan, 2023</h5>
                     <p>Mount Fuji, highest mountain in Japan.
@@ -27,7 +27,7 @@ function Content(){
                 <div className='contents'>
                 <img src={Location} className='Location' />
                 <span>AUSTRALIA</span>
-                <a href="">View on Google Maps</a>
+                <a href="https://maps.app.goo.gl/6dNnhVDgLWLFPCCx5">View on Google Maps</a>
                 <h2>Sydney Opera House</h2>
                 <h5>27 May, 2023 - 8 Jun, 2023</h5>
                 <p>
@@ -40,7 +40,7 @@ function Content(){
                 <div className='contents'>
                 <img src={Location} className='Location' />
                 <span>NORWAY</span>
-                <a href="">View on Google Maps</a>
+                <a href="https://maps.app.goo.gl/aH7rkoZFZ82o57ek7">View on Google Maps</a>
                 <h2>Geirangerfjord</h2>
                 <h5>
                 01 Oct, 2024 - 18 Nov, 2024

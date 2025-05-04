@@ -10,8 +10,10 @@
     align-items: center;
     justify-content: center;
     color: white;
+    padding: 0px;
+    margin: 0px;
     background-color:#F55A5A ;
-    border: 2px solid #F55A5A;
+    border: 5px solid #F55A5A;
 }
 
 h1{

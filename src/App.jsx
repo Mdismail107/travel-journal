@@ -1,15 +1,27 @@
-import './App.css'
+import Entry from "./components/entry"
+import Data from "./components/data"
 import Header from './components/header'
-import Content from './components/content'
 
-function App() {
+export default function App(){
 
-  return (
+    const travelall=Data.map((traveleach) =>(
+        <Entry 
+            key={traveleach.id}
+            img={traveleach.img}
+            title={traveleach.title}
+            country={traveleach.country}
+            googleMapsLink={traveleach.googleMapsLink}
+            dates={traveleach.dates}
+            text={traveleach.text}
+        />
+     ))
+
+    return(
     <>
-      <Header/>
-      <Content/>
+        <Header/>
+        <main>
+            {travelall}
+        </main>
     </>
-  )
+    )
 }
-
-export default App
